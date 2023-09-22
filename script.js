@@ -1,7 +1,7 @@
 //your code here
 function updateClock() {
     const hourHand = document.getElementById("hour-hand");
-    const minuteHand = document.getElementById("minute-hand");
+    const minuteHand = document.getElementById("min-hand");
     const secondHand = document.getElementById("second-hand");
 
     const now = new Date();
@@ -18,4 +18,4 @@ function updateClock() {
     secondHand.style.transform = `rotate(${secondDeg}deg)`;
 }
 
-setInterval(updateClock, 1000); // Update the clock every second
+  setInterval(updateClock, 1000); 
